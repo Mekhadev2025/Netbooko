@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Huawei MateBook X Pro",
+      "price": 10.99,
+      "imgUrl": "/imgs/lap1.jpeg"
+    },
+    {
+      "id": 2,
+      "name": " Apple Macbook Pro 2018",
+      "price": 1199,
+      "imgUrl": "/imgs/lap2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dell XPS 13",
+      "price": 1.05,
+      "imgUrl": "/imgs/lap3.webp"
+    },
+    {
+      "id": 4,
+      "name": " Asus ZenBook Flip S",
+      "price": 14000,
+      "imgUrl": "/imgs/lap4.webp"
+    }
+    ]
+
