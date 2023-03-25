@@ -1,13 +1,16 @@
 import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 import { useShoppingCart } from "../context/ShoppingCartContext"
-
+import logo from "../assets/logo3.png"
 export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart()
   return (
-    <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
+    <NavbarBs sticky="top" className=" shadow-sm mb-3"> 
+    
       <Container>
-        <Nav className="me-auto">
+      
+        <Nav className="me-auto"> 
+        <div className="fs-4 align-items-baseline" style={{paddingRight:"20px" ,marginTop:"2px"}}>NetBooko</div>
           <Nav.Link to="/" as={NavLink}>
             Home
           </Nav.Link>
