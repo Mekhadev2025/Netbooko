@@ -20,7 +20,20 @@ return(
                 </Card.Title>
                 <div className="mt-auto">
                         {quantity ===0 ? <Button className="w-100">Add to Cart</Button>:
-                        <div className="d-flex align-items-center flex-column" style={{gap:".5rem"}}></div>}
+                        <div className="d-flex align-items-center flex-column" style={{gap:".5rem"}}>
+                        <div className="d-flex align-items-center justify-content-center" style={{gap:".5rem"}}>
+                         <Button>-</Button>
+                         <div>
+                            in Cart</div>
+                        
+                        <Button>+</Button>
+                       
+                        </div>
+                        <Button variant="danger" size="sm">Remove</Button>
+                        </div>
+                        
+                        
+                        }
 
                 </div>
             </Card.Body>
